@@ -58,17 +58,15 @@ This DAG consists of five main tasks:
 4. Load Dimension Tables
 5. Run Data Quality Checks
 
-Custom operators have been create to optimize processing time. These can befound in the `operators` directory.
-
-Helpers class contains all the SQL transformations. 
-
-![airflow]()
+Custom operators have been create to optimize processing time. These can befound in the `operators` directory. Helpers class contains all the SQL transformations. 
 
 ## Running the DAG
 
 Switch the `dag` to `ON` from the Airflow GUI. The tasks should start running as they are scheduled to every hour and have some backfills to perform. You can inspect the tasks using different Airflow's view such as "Tree View".
 
 Once the Create table tasks are complete, you can check in Redshift for the tables created. The data quality check task ensures that the data load is valid. 
+
+![airflow](images/airflow.png)
 
 ## Structure
 
