@@ -62,7 +62,7 @@ Custom operators have been create to optimize processing time. These can befound
 
 Helpers class contains all the SQL transformations. 
 
-![image-20211103114634699](/Users/lararachidi/Library/Application Support/typora-user-images/image-20211103114634699.png)
+![airflow]()
 
 ## Running the DAG
 
